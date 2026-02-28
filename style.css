@@ -1,0 +1,150 @@
+body {
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+
+}
+
+.card {
+  width: 900px;
+  height: 550px;
+  background-image: url('images/bg-pattern-bottom-desktop.svg');
+  background-repeat: no-repeat;      /* Не повторять картинку */
+  background-position: center;       /* Центрировать */
+  background-size: cover;  
+  /* Горизонталь, Вертикаль, Размытие, Растяжение, Цвет */
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+
+}
+
+.users {
+  font-size: 35px;
+  font-weight: 800;
+  color: hsl(300, 43%, 22%);
+  margin: 50px 0 0 100px;
+  max-width: 300px
+  
+}
+
+
+.text_users {
+  color: hsl(303, 10%, 53%);
+  font-size: 13px;
+  margin: 20px 0 0 100px;
+  font-weight: 600;
+  max-width: 300px
+
+}
+
+.image_star {
+  margin: 70px 0 0 20px;
+
+
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.rating_star, .rating_star_2, .rating_star_3 {
+  display: flex;
+  align-items: center;
+  width: 370px;
+  height: 40px;
+  background-color: hsl(300, 22%, 96%);
+  border-radius: 5px;
+
+
+}
+
+.rating_star_2 {
+  margin: 10px 0 0 20px;
+}
+
+.rating_star_3 {
+  margin: 10px 0 0 40px;
+}
+
+.text-stars {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+
+.stars5 {
+  display: flex;
+  margin-left: 10px;
+  gap: 5px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 100px;
+
+}
+
+.user_card_1, .user_card_2, .user_card_3 {
+  width: 240px;
+  height: 175px;
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+
+}
+
+.user_card_2 {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.user_card_3 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.user_image {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.Colton, .Irene, .Anne {
+  margin: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.user_colton, .user_Irene, .user_Anne{
+
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.user_status {
+  color: hsl(333, 80%, 67%);
+  font-weight: 600;
+  font-size: 13px;
+  opacity: 70%;
+  white-space: nowrap;
+}
+
+.text_user_card {
+  font-size: 13px;
+  color: white;
+  margin: 15px 5px 0 15px;
+  opacity: 85%;
+}
